@@ -2,7 +2,6 @@
  * Created by Muc on 17/3/7.
  */
 const express = require('express');
-const passport = require('passport');
 const Users = require('../models/users');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
